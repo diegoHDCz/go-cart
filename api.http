@@ -1,0 +1,22 @@
+###
+POST http://localhost:8080/api/v1/register
+content-type: "application/json"
+
+{
+  "email": "me@me.com",
+  "password": "asd",
+  "firstName": "jhon",
+  "lastName": "doe"
+}
+
+###
+POST http://localhost:8080/api/v1/login
+content-type: "application/json"
+
+{
+  "email": "me@me.com",
+  "password": "asd"
+}
+
+###
+GET http://localhost:8080/api/v1/products
